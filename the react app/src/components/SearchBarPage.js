@@ -3,6 +3,9 @@ import axios from 'axios'
 import { CompaniesData, renderCompanyName } from './listOfAllCompanies';
 import Autocomplete from 'react-autocomplete';
 
+
+//this is the search bar page. We check how many companies we have in the ElasticSearch index
+//When the user types the name of the company he's looking for, we move to the searchEngine.js
 class SearchBar extends React.Component {
     constructor(){
         super()
